@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "yumeSystemUIOverlay",
+    name: "cuscoSystemUIOverlay",
     vendor: true,
 }

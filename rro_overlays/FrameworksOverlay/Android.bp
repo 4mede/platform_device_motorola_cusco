@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "yumeFrameworksOverlay",
+    name: "cuscoFrameworksOverlay",
     vendor: true,
 }

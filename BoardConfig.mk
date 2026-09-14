@@ -17,12 +17,12 @@ PRODUCT_PLATFORM := parrot
 include device/motorola/sm6450-common/PlatformConfig.mk
 
 # Partition information
-BOARD_SUPER_PARTITION_SIZE := 6786383872
+BOARD_SUPER_PARTITION_SIZE := 7381975040
 BOARD_SUPER_PARTITION_GROUPS := mot_dynamic_partitions
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := $(BOARD_BOOTIMAGE_PARTITION_SIZE)
 
 # DYNAMIC_PARTITIONS_SIZE = (SUPER_PARTITION_SIZE / 2) - 4MB
-BOARD_MOT_DYNAMIC_PARTITIONS_SIZE := 3388997632
+BOARD_MOT_DYNAMIC_PARTITIONS_SIZE := 7377975040
 BOARD_MOT_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system_ext \
     system \
@@ -31,6 +31,6 @@ BOARD_MOT_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     vendor_dlkm
 
 # Modules
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat device/motorola/yume/modules.load.ramdisk))
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat device/motorola/yume/modules.load.recovery))
-BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat device/motorola/yume/modules.load))
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat device/motorola/cusco/modules.load.ramdisk))
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat device/motorola/cusco/modules.load.recovery))
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat device/motorola/cusco/modules.load))

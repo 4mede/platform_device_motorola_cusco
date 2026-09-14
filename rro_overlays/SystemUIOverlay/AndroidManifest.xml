@@ -17,7 +17,7 @@
 */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.systemui.yume">
+    package="com.android.systemui.cusco">
 
     <overlay
         android:isStatic="true"

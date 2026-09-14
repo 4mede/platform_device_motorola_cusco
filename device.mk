@@ -27,20 +27,20 @@ SOONG_CONFIG_qtidisplay_brightness := true
 DEVICE_CHARACTERISTICS += hfr
 
 # Device path
-DEVICE_PATH := device/motorola/yume/rootdir
+DEVICE_PATH := device/motorola/cusco/rootdir
 
 # Model
-PRODUCT_MODEL := moto g stylus 5g 2023
+PRODUCT_MODEL := motorola edge 50 fusion
 
 # NFC
-TARGET_USES_NXP_NFC := true
+TARGET_USES_ST_NFC := true
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm6450-common/platform.mk)
 
 # include board vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/yume/yume-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/cusco/cusco-vendor.mk)
 
 BOOT_KERNEL_MODULES := $(sort \
-    $(strip $(shell cat device/motorola/yume/modules.load.recovery)) \
-    $(strip $(shell cat device/motorola/yume/modules.load.ramdisk)))
+    $(strip $(shell cat device/motorola/cusco/modules.load.recovery)) \
+    $(strip $(shell cat device/motorola/cusco/modules.load.ramdisk)))

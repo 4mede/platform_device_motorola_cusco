@@ -1,4 +1,4 @@
-Moto G Stylus 5G 2023
+Motorola Edge 50 Fusion
 ============
 
 ## Copyrights
@@ -8,4 +8,4 @@ Copyright (C) Sony Mobile Communications 2020
 
 ## Device Tree
 
-Android device configuration for the Moto G Stylus 5G 2023 (SD 6 Gen 1).
+Android device configuration for the Motorola Edge 50 Fusion (SD 6 Gen 1).

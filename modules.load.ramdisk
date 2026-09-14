@@ -28,12 +28,10 @@ cmd-db.ko
 gh_msgq.ko
 gh_rm_drv.ko
 icc-bcm-voter.ko
-icc-debug.ko
 iommu-logger.ko
 mem_buf_dev.ko
 mem_buf.ko
 mem-hooks.ko
-mem-offline.ko
 memory_dump_v2.ko
 minidump.ko
 msm_dma_iommu_mapping.ko
@@ -58,6 +56,7 @@ socinfo.ko
 stub-regulator.ko
 msm-geni-se.ko
 nvmem_qfprom.ko
+sdhci-msm-scaling.ko
 cqhci.ko
 sdhci-msm.ko
 phy-qcom-ufs.ko
